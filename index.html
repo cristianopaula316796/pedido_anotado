@@ -1,77 +1,332 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset='utf-8'>
-
-  <title>cristianopaula316796/pedido_anotado @ GitHub</title>
-
-  <style type="text/css">
-    body {
-      margin-top: 1.0em;
-      background-color: #8ef5c5;
-      font-family: Helvetica, Arial, FreeSans, san-serif;
-      color: #000000;
-    }
-    #container {
-      margin: 0 auto;
-      width: 700px;
-    }
-    h1 { font-size: 3.8em; color: #710a3a; margin-bottom: 3px; }
-    h1 .small { font-size: 0.4em; }
-    h1 a { text-decoration: none }
-    h2 { font-size: 1.5em; color: #710a3a; }
-    h3 { text-align: center; color: #710a3a; }
-    a { color: #710a3a; }
-    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
-    .download { float: right; }
-    pre { background: #000; color: #fff; padding: 15px;}
-    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
-    .footer { text-align:center; padding-top:30px; font-style: italic; }
-  </style>
-</head>
-
-<body>
-  <a href="http://github.com/cristianopaula316796/pedido_anotado"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
-
-  <div id="container">
-
-    <div class="download">
-      <a href="http://github.com/cristianopaula316796/pedido_anotado/zipball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/zip.png"></a>
-      <a href="http://github.com/cristianopaula316796/pedido_anotado/tarball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/tar.png"></a>
-    </div>
-
-    <h1><a href="http://github.com/cristianopaula316796/pedido_anotado">pedido_anotado</a>
-      <span class="small">by <a href="http://github.com/cristianopaula316796">cristianopaula316796</a></span></h1>
-
-    <div class="description">
-      o objetivo principal da aplicação é divulgação dos estabelecimentos e de suas informações para o cliente, assim podendo fazer o pedido através do ambiente online.
-    </div>
-
-    <p>Pedido Anotado é um site que levará informações sobre estabelecimentos que oferecem entregas de produtos aos seu clientes, assim o cliente visitando o nosso site poderá fazer um pedido e aguardar o seu produto em sua casa.</p><h2>Authors</h2>
-<p>Cristiano, Lucas, Yan, Thiago, Jeferson, Leonardo      </p>
-<h2>Contact</h2>
-<p> (crishiano@yahoo.com.br)<br/>      </p>
-
-
-    <h2>Download</h2>
-    <p>
-      You can download this project in either
-      <a href="http://github.com/cristianopaula316796/pedido_anotado/zipball/master">zip</a> or
-      <a href="http://github.com/cristianopaula316796/pedido_anotado/tarball/master">tar</a> formats.
-    </p>
-    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
-      by running:
-      <pre>$ git clone git://github.com/cristianopaula316796/pedido_anotado</pre>
-    </p>
-
-    <div class="footer">
-      get the source code on GitHub : <a href="http://github.com/cristianopaula316796/pedido_anotado">cristianopaula316796/pedido_anotado</a>
-    </div>
-
-  </div>
-
-  
-</body>
+<html lang="en">
+    <head>
+        <title>Site de Pedidos -Pedido Anotado</title>
+		<meta charset=utf-8>
+        <meta name="description" content=" Pedido Anotado é um site que levará informações sobre estabelecimentos que oferecem entregas de produtos aos seu clientes" />
+        <meta name="keywords" content="restaurantes, comidas, pizza, hamburger"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link  href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:regular,bold" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+		<div id="ac_background" class="ac_background">
+			<img class="ac_bgimage" src="images/Default.jpg" alt="Background"/>
+			<div class="ac_overlay"></div>
+			<div class="ac_loading"></div>
+		</div>
+		<div id="ac_content" class="ac_content">
+			<h1><span>Pedido</span>Anotado</h1>
+			<div class="ac_menu">
+				<ul>
+					<li>
+						<a href="images/Appetizers.jpg">O que é ?</a>
+						<div class="ac_subitem">
+							<span class="ac_close"></span>
+							<h2>O que é o Pedido Anotado?</h2>
+							<ul>
+								<li>Pedido Anotado é um site que levará informações sobre estabelecimentos que oferecem entregas de produtos aos seu clientes, assim o cliente visitando o nosso site poderá fazer um pedido e aguardar o seu produto em sua casa.
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="images/MainCourse.jpg">Restaurantes</a>
+						<div class="ac_subitem">
+							<span class="ac_close"></span>
+							<h2>Restaurantes</h2>
+							<ul>
+								<li>Restaurantes cadastrados em nosso site:</li>
+								<li>Wild Sea Bass Filet</li>
+								<li>Linguini and Clams</li>
+								<li>Shrimp and Crabmeat Alfredo</li>
+								<li>Broiled Stuffed Flounder </li>
+								<li>Mussels Marinara</li>
+								<li>Grilled Mooloolaba Giant king prawns</li>
+								<li>Lobster Mornay</li>
+								<li>Fresh Shrimp Tart</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="images/Specials.jpg">Serviços</a>
+						<div class="ac_subitem">
+							<span class="ac_close"></span>
+							<h2>Tipos de Serviços</h2>
+							<ul>
+								<li>Tipos de serviços que os restaurantes oferecem:</li>
+								<li>Ratatouille</li>
+								<li>Le Tourin</li>
+								<li>Wild Salmon Bruschetta</li>
+								<li>Sweet Mustard Gratin</li>
+								<li>Homemade Pizza Mediteranica</li>
+								<li>Spanakopita Speciale</li>
+								<li>Ricotta Spinach Cannelloni</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="images/Desserts.jpg">Pedido</a>
+						<div class="ac_subitem">
+							<span class="ac_close"></span>
+							<h2>Faça seu pedido:</h2>
+							<ul>
+								<li>Selecione o serviço:</li>
+								<li>New England Apple Crisp</li>
+								<li>Southern Pecan Pie</li>
+								<li>Brownie Fudge Sundae</li>
+								<li>Strawberry Mousse Cake</li>
+								<li>Vanilla Crème brûlée</li>
+								<li>Lemon Sorbet</li>
+								<li>Crunchy Almond Cake</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="images/Wines.jpg">Contato</a>
+						<div class="ac_subitem">
+							<span class="ac_close"></span>
+							<h2>Contato</h2>
+							<ul>
+								<li>Av. Afonso Vaz de Melo nº , Belo Horizonte - MG</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- The JavaScript -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				var $ac_background	= $('#ac_background'),
+				$ac_bgimage		= $ac_background.find('.ac_bgimage'),
+				$ac_loading		= $ac_background.find('.ac_loading'),
+				
+				$ac_content		= $('#ac_content'),
+				$title			= $ac_content.find('h1'),
+				$menu			= $ac_content.find('.ac_menu'),
+				$mainNav		= $menu.find('ul:first'),
+				$menuItems		= $mainNav.children('li'),
+				totalItems		= $menuItems.length,
+				$ItemImages		= new Array();
+				
+				/* 
+				for this menu, we will preload all the images. 
+				let's add all the image sources to an array,
+				including the bg image
+				*/
+				$menuItems.each(function(i) {
+					$ItemImages.push($(this).children('a:first').attr('href'));
+				});
+				$ItemImages.push($ac_bgimage.attr('src'));
+					  
+				
+				var Menu 			= (function(){
+					var init				= function() {
+						loadPage();
+						initWindowEvent();
+					},
+					loadPage			= function() {
+						/*
+							1- loads the bg image and all the item images;
+							2- shows the bg image;
+							3- shows / slides out the menu;
+							4- shows the menu items;
+							5- initializes the menu items events
+						 */
+						$ac_loading.show();//show loading status image
+						$.when(loadImages()).done(function(){
+							$.when(showBGImage()).done(function(){
+								//hide the loading status image
+								$ac_loading.hide();
+								$.when(slideOutMenu()).done(function(){
+										$.when(toggleMenuItems('up')).done(function(){
+										initEventsSubMenu();
+									});
+								});
+							});
+						});
+					},
+					showBGImage			= function() {
+						return $.Deferred(
+						function(dfd) {
+							//adjusts the dimensions of the image to fit the screen
+							adjustImageSize($ac_bgimage);
+							$ac_bgimage.fadeIn(1000, dfd.resolve);
+						}
+					).promise();
+					},
+					slideOutMenu		= function() {
+						/* calculate new width for the menu */
+						var new_w	= $(window).width() - $title.outerWidth(true);
+						return $.Deferred(
+						function(dfd) {
+							//slides out the menu
+							$menu.stop()
+							.animate({
+								width	: new_w + 'px'
+							}, 700, dfd.resolve);
+						}
+					).promise();
+					},
+						/* shows / hides the menu items */
+						toggleMenuItems		= function(dir) {
+						return $.Deferred(
+						function(dfd) {
+							/*
+							slides in / out the items. 
+							different animation time for each one.
+							*/
+							$menuItems.each(function(i) {
+										var $el_title	= $(this).children('a:first'),
+											marginTop, opacity, easing;
+										if(dir === 'up'){
+											marginTop	= '0px';
+											opacity		= 1;
+											easing		= 'easeOutBack';
+										}
+										else if(dir === 'down'){
+											marginTop	= '60px';
+											opacity		= 0;
+											easing		= 'easeInBack';
+						}
+								$el_title.stop()
+								.animate({
+													marginTop	: marginTop,
+													opacity		: opacity
+												 }, 200 + i * 200 , easing, function(){
+									if(i === totalItems - 1)
+										dfd.resolve();
+								});
+							});
+						}
+					).promise();
+					},
+					initEventsSubMenu	= function() {
+						$menuItems.each(function(i) {
+							var $item		= $(this), // the <li>
+							$el_title	= $item.children('a:first'),
+							el_image	= $el_title.attr('href'),
+							$sub_menu	= $item.find('.ac_subitem'),
+							$ac_close	= $sub_menu.find('.ac_close');
+							
+							/* user clicks one item : appetizers | main course | desserts | wines | specials */
+							$el_title.bind('click.Menu', function(e) {
+									$.when(toggleMenuItems('down')).done(function(){
+									openSubMenu($item, $sub_menu, el_image);
+								});
+								return false;
+							});
+							/* closes the submenu */
+							$ac_close.bind('click.Menu', function(e) {
+								closeSubMenu($sub_menu);
+								return false;
+							});
+						});
+					},
+					openSubMenu			= function($item, $sub_menu, el_image) {
+						$sub_menu.stop()
+						.animate({
+							height		: '400px',
+							marginTop	: '-200px'
+						}, 400, function() {
+										//the bg image changes
+							showItemImage(el_image);
+						});
+					},
+						/* changes the background image */
+					showItemImage		= function(source) {
+							//if its the current one return
+						if($ac_bgimage.attr('src') === source)
+							return false;
+								
+						var $itemImage = $('<img src="'+source+'" alt="Background" class="ac_bgimage"/>');
+						$itemImage.insertBefore($ac_bgimage);
+						adjustImageSize($itemImage);
+						$ac_bgimage.fadeOut(1500, function() {
+							$(this).remove();
+							$ac_bgimage = $itemImage;
+						});
+						$itemImage.fadeIn(1500);
+					},
+					closeSubMenu		= function($sub_menu) {
+						$sub_menu.stop()
+						.animate({
+							height		: '0px',
+							marginTop	: '0px'
+						}, 400, function() {
+							//show items
+										toggleMenuItems('up');
+						});
+					},
+						/*
+						on window resize, ajust the bg image dimentions,
+						and recalculate the menus width
+						*/
+					initWindowEvent		= function() {
+						/* on window resize set the width for the menu */
+						$(window).bind('resize.Menu' , function(e) {
+							adjustImageSize($ac_bgimage);
+							/* calculate new width for the menu */
+							var new_w	= $(window).width() - $title.outerWidth(true);
+							$menu.css('width', new_w + 'px');
+						});
+					},
+						/* makes an image "fullscreen" and centered */
+					adjustImageSize		= function($img) {
+						var w_w	= $(window).width(),
+						w_h	= $(window).height(),
+						r_w	= w_h / w_w,
+						i_w	= $img.width(),
+						i_h	= $img.height(),
+						r_i	= i_h / i_w,
+						new_w,new_h,
+						new_left,new_top;
+							
+						if(r_w > r_i){
+							new_h	= w_h;
+							new_w	= w_h / r_i;
+						}
+						else{
+							new_h	= w_w * r_i;
+							new_w	= w_w;
+						}
+							
+						$img.css({
+							width	: new_w + 'px',
+							height	: new_h + 'px',
+							left	: (w_w - new_w) / 2 + 'px',
+							top		: (w_h - new_h) / 2 + 'px'
+						});
+					},
+						/* preloads a set of images */
+					loadImages			= function() {
+						return $.Deferred(
+						function(dfd) {
+							var total_images 	= $ItemImages.length,
+							loaded			= 0;
+							for(var i = 0; i < total_images; ++i){
+								$('<img/>').load(function() {
+									++loaded;
+									if(loaded === total_images)
+										dfd.resolve();
+								}).attr('src' , $ItemImages[i]);
+							}
+						}
+					).promise();
+					};
+						
+					return {
+						init : init
+					};
+				})();
+			
+				/*
+			call the init method of Menu
+				 */
+				Menu.init();
+			});
+		</script>
+    </body>
 </html>
