@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <title>Pedido Anotado</title>
     <meta charset="utf-8">
@@ -36,7 +36,7 @@
                             <li>Celeiro de Minas</li>
                             <li>Boquinha Lanches</li>
                             <li>Pizzaiollo Barreiro</li>
-                            <li><a href="restaurantex.html">Bar do tonim</a></li>
+                            <li><a style="opacity:1; font-weight:normal; font-size:16px; text-align:left; margin-top:20px; line-height:0px; padding:0px;" href="restaurantex.html">Bar do tonim</a></li>
                             <a href="images/Appetizers.jpg">Parceiros</a>
                         </ul>
                     </div>
@@ -46,47 +46,38 @@
                         <span class="ac_close"></span>
                         <h2>
                             Login</h2>
-                        <ul>
+                        <form id="form_login">
+						<ul>
                             <li>Entre e aproveite</li>
-                            <form id="form_login">
                             <li>Email:
                                 <input type="text" name="txtemailusu" maxlength="50" /></li>
                             <li>Senha:
-                                <input type="text" name="txtsenhausu" maxlength="20" /></li>
-                            </form>
+                                <input type="password" name="txtsenhausu" maxlength="20" /></li>
+							<li><input type="submit" name="entrar" value="entrar" /></li>
+                            
                         </ul>
+					    </form>
                     </div>
-                </li>
                 <li><a href="images/MainCourse.jpg">Cadastre-se</a>
                     <div class="ac_subitem">
                         <span class="ac_close"></span>
                         <h2>
                             Cadastro</h2>
-                        <ul>
-                            <li>Seja um membro do Pedido Anotado e aproveite!</li>
-                            <form name="cadastro">
-                            <li>Nome:
-                                <input type="text" name="txtnomeusu" maxlength="30" /></li>
-                            <li>Email:
-                                <input type="text" name="txtemailusu" maxlength="50" /></li>
-                            <li>Senha:
-                                <input type="text" name="txtsenhausu" maxlength="20" /></li>
-                            <li>Telefone:
-                                <input type="text" name="txttelusu" maxlength="10" /></li>
-                            <li>Endereço:
-                                <input type="text" name="txtend" maxlength="30" />
-                            </li>
-                            <li>Número:
-                                <input type="text" name="txtnumeroend" maxlength="5" /></li>
-                            <li>Bairro:
-                                <input type="text" name="txtbairroend" maxlength="10" /></li>
-                            <li>CEP:
-                                <input type="text" name="txtceprroend" maxlength="11" /></li>
-                            <li>Complemento:
-                                <input type="text" name="txtcompend" maxlength="10" /></li>
-                            <li> <input type="submit" name="salvar" value="salvar" /></li>
-                            </form>
-                        </ul>
+					   <form name="cadastro">
+					   <ul>	
+                        <li>Seja um membro do Pedido Anotado e aproveite!</li>
+                            <li>Nome:<input style="margin-left:60px" type="text" name="txtnomeusu" maxlength="30" /></li>
+                            <li>Email:<input style="margin-left:60px" type="text" name="txtemailusu" maxlength="50"/></li>
+                            <li>Senha:<input style="margin-left:56px" type="text" name="txtsenhausu" maxlength="20"/></li>
+                            <li>Telefone:<input type="text" style="margin-left:35px" name="txttelusu" maxlength="10"/></li>
+                            <li>Endereço:<input type="text" style="margin-left:33px" name="txtend" maxlength="30"/></li>
+                            <li>Número:<input type="text" style="margin-left:44px" name="txtnumeroend" maxlength="5"/></li>
+                            <li>Bairro:<input type="text" style="margin-left:50px" name="txtbairroend" maxlength="10"/></li>
+                            <li>CEP:<input type="text" style="margin-left:70px" name="txtceprroend" maxlength="11"/></li>
+                            <li>Complemento:<input type="text" style="margin-left:3px" name="txtcompend" maxlength="10"/></li>
+                            <div align="center"><input type="submit" name="cadastrar" value="cadastrar" /></div>
+						</ul>
+					</form>
                     </div>
                 </li>
                 <li><a href="images/Specials.jpg">Avalie</a>
@@ -96,8 +87,7 @@
                             Avaliação</h2>
                         <ul>
                             <li>Elogie ou critique os pratos</li>
-                        </ul>
-                        <select name="restaurantes">
+                        <li><select style="width:180px" name="restaurantes">
                             <option value="1" selected="selected">Celeiro de Minas</option>
                             <option value="2">Bar do Tonim</option>
                             <option value="3">Bar do Zezé</option>
@@ -108,20 +98,23 @@
                             <option value="2">Bar do Tonim</option>
                             <option value="3">Bar do Zezé</option>
                             <option value="4">Bar do Ferreira</option>
-                        </select><br />
-                        <select name="pratos">
+                        </select>
+						</li>
+                        <li><select style="width:180px" name="pratos">
                             <option value="1" selected="selected">Bolinho de Chuva</option>
                             <option value="2">Fritas</option>
                             <option value="3">Trupico Mineiro</option>
                             <option value="4">Alitas Recheadas</option>
-                        </select><br />
+                        </select></li>
                         </select>
-                        <select name="pratos">
+                        <li><select style="width:180px" name="pratos">
                             <option value="1" selected="selected">Ótimo</option>
                             <option value="2">Bom</option>
                             <option value="3">Mais ou menos</option>
                             <option value="4">Não gostou</option>
-                        </select><br />
+                        </select></li>
+						<li><input type="submit" name="enviar" value="enviar" /></li>
+						</ul>
                     </div>
                 </li>
                 <li><a href="images/Specials.jpg">Promoções</a>
@@ -130,7 +123,7 @@
                         <h2>
                             Promoções</h2>
                         <ul>
-                            <li><a href="promocoes.html">Promoções</a></li>                            
+                            <li><a style="opacity:1; font-weight:normal; font-size:16px; text-align:left; margin-top:20px; line-height:0px; padding:0px;" href="promocoes.html">Promoções</a></li>                            
                         </ul>
                     </div>
                 </li>
@@ -141,7 +134,7 @@
                             Estatísticas</h2>
                         <ul>
                             <li>Veja como estão sendo avaliados os restaurantes e seus pratos</li>
-                            <li><a href="estatisticas.html">Confira</a></li>                           
+                            <li><a style="opacity:1; font-weight:normal; font-size:16px; text-align:left; margin-top:20px; line-height:0px; padding:0px;" href="estatisticas.html">Confira</a></li>                           
                         </ul>
                     </div>
                 </li>
